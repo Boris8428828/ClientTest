@@ -1,0 +1,6 @@
+POST /api/clients — Добавление нового клиента.
+POST /api/contacts — Добавление нового контакта клиента.
+GET /api/clients — Получение списка всех клиентов.
+GET /api/clients/{id} — Получение информации по заданному клиенту.
+GET /api/contacts/client/{clientId} — Получение списка контактов клиента.
+GET /api/contacts/client/{clientId}/{contactType} — Получение контактов клиента по типу (телефон или email).
